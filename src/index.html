@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+</head>
+
+<body>
+    <div class='container'>
+        <div class='message-container'></div>
+        <form class='input-form'>
+            <div class='input-container'>
+                <input class='input-text' type="text" placeholder='Пишим тут' required>
+            </div>
+            <button class='input-submit hidden'></button>
+        </form>
+        <div class='coords-modal hidden'>
+            <div class='modal-content'>
+                <div class='modal-info'>
+                    <p>Что-то не так...</p>
+                    <p>Введите пожалуйста свои координаты (через запятую)</p>
+                    <p class='check-coords-input hidden'>Введите корректные координаты</p>
+                </div>
+                <form class='modal-form'>
+                    <input class='modal-input' type="text" required>
+                    <div class='modal-buttons'>
+                        <button class='modal-btn modal-cancel'>Отмена</button>
+                        <button class='modal-btn modal-ok'>Ок</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
